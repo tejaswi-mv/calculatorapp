@@ -223,7 +223,7 @@ function Calculator() {
           }
         }
       } else if (i === expression.length - 1) {
-        if (expression[i] === "5") {
+        if (expression[i] === "2") {
           if (i - 1 >= 0) {
             if (expression[i - 1] - "0" >= 0 && expression[i - 1] - "0" <= 9) {
             } else {
@@ -241,7 +241,7 @@ function Calculator() {
           }
         }
       } else {
-        if (expression[i] === "5") {
+        if (expression[i] === "2") {
           if (i - 1 >= 0) {
             if (expression[i - 1] - "0" >= 0 && expression[i - 1] - "0" <= 9) {
             } else {
