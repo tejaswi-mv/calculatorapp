@@ -77,8 +77,8 @@ td {
 
 .container-small {
   
-  height: 362px;
-  width: 620px;
+  height: 366px;
+  width: 624px;
   margin-top:50px;
   border: solid black 2px;
   border-radius: 10px;
@@ -89,7 +89,7 @@ td {
   height: 70px;
   width: 100%;
   vertical-align: bottom;
-  border-top: none;
+  border: none;
   background-color: rgb(57, 57, 57);
   color: #fff;
   font-size: 50px;
