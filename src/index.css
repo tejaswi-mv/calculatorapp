@@ -28,8 +28,8 @@
 }
 
 .dot {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   margin-right: 5px;
   border-radius: 100%;
   
@@ -38,15 +38,15 @@
 }
 
 .dot.red {
-  background-color: red;
+  background-color:#EB695A;
 }
 
 .dot.yellow {
-  background-color: yellow;
+  background-color:#5FC350;
 }
 
 .dot.green {
-  background-color: green;
+  background-color: #F2BB4D;
 }
 button {
   height: 50px;
@@ -62,7 +62,7 @@ button {
   margin: auto;
   text-align: center;
   color: #fff;
-  border-radius: px;
+  border-radius: 2px;
 }
 td {
  
@@ -77,11 +77,15 @@ td {
 
 .container-small {
   
-  height: 366px;
-  width: 624px;
+  height: 362px;
+  width: 625px;
   margin-top:50px;
   border: solid black 2px;
   border-radius: 10px;
+  -webkit-box-shadow: -16px 10px 70px -6px rgba(0,0,0,0.75);
+  -moz-box-shadow: -16px 10px 70px -6px rgba(0,0,0,0.75);
+  box-shadow: -16px 10px 70px -6px rgba(0,0,0,0.75);
+  
   /* background-color: black; */
   background-color: black;
 }
@@ -101,6 +105,7 @@ td {
 }
 .arithmetic {
   background-color: #F0A03B;
+  border-radius: 2px;
   font-size: 15px;
 }
 #yellow {
